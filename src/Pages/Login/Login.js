@@ -12,7 +12,7 @@ export default function Login({email,setEmail}) {
   async function handleSubmit(e) {
 
     e.preventDefault()
-    const response = await fetch("https://full-auth.onrender.com/user/login", {
+    const response = await fetch("https://backend-auth-h3bi.onrender.com/user/login", {
       method: "POST",
       headers: { 'content-type': 'application/json' },
       body: JSON.stringify({

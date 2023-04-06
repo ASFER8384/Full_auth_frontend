@@ -6,7 +6,7 @@ export default function Forget() {
 
   async function handleSubmit(e) {
     e.preventDefault()
-    const response = await fetch("https://full-auth.onrender.com/user/forgetpassword", {
+    const response = await fetch("https://backend-auth-h3bi.onrender.com/user/forgetpassword", {
       method: "POST",
       headers: { 'content-type': 'application/json' },
       body: JSON.stringify({

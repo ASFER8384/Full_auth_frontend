@@ -15,7 +15,7 @@ const navigate = useNavigate()
 
   async function handleRegister(e) {
     e.preventDefault()
-    const response = await fetch("https://full-auth.onrender.com/user/register", {
+    const response = await fetch("https://backend-auth-h3bi.onrender.com/user/register", {
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify({
